@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "dependencies": {
+    "knex": "<0.20.0",
+    "mime-types": "^2.1.27",
+    "sqlite3": "latest",
+    "strapi": "3.3.4",
+    "strapi-admin": "3.3.4",
+    "strapi-connector-bookshelf": "3.3.4",
+    "strapi-plugin-content-manager": "3.3.4",
+    "strapi-plugin-content-type-builder": "3.3.4",
+    "strapi-plugin-email": "3.3.4",
+    "strapi-plugin-graphql": "3.2.5",
+    "strapi-plugin-upload": "3.3.4",
+    "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-utils": "3.3.4"
+  },
+  "description": "A Strapi application",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "name": "backend",
+  "private": true,
+  "scripts": {
+    "build": "strapi build",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "strapi": {
+    "template": "https://github.com/strapi/strapi-template-blog",
+    "uuid": "8203cab6-2ed3-4dad-b121-6955ade41ef0"
+  },
+  "version": "0.1.0"
+}
